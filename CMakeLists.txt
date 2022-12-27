@@ -21,9 +21,7 @@ else()
   target_include_directories(boost_asem INTERFACE include)
   target_link_libraries(boost_asem
     INTERFACE
-      Boost::asio
-      Boost::filesystem
-      Boost::system
+      Boost::boost
   )
 endif()
 
